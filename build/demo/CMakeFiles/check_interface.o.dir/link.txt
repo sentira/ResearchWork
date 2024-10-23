@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcheck_interface.o.a CMakeFiles/check_interface.o.dir/check_interface_abstract.cpp.o
+/usr/bin/ranlib libcheck_interface.o.a

@@ -1,0 +1,1 @@
+g++  -Wall  -fopenmp -O3 -fpermissive -lrt  -DUARCH_ARM -march=armv8.2-a+fp16 -rdynamic CMakeFiles/test_leaky.exe.dir/test_leaky.cpp.o -o test_leaky.exe 

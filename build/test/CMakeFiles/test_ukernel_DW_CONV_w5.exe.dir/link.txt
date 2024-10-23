@@ -1,0 +1,1 @@
+g++  -Wall  -fopenmp -O3 -fpermissive -lrt  -DUARCH_ARM -march=armv8.2-a+fp16 -rdynamic CMakeFiles/test_ukernel_DW_CONV_w5.exe.dir/kernel_benchmark_test.cpp.o -o test_ukernel_DW_CONV_w5.exe 

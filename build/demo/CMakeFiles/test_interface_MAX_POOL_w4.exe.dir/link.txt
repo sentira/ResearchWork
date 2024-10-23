@@ -1,0 +1,1 @@
+g++  -Wall  -fopenmp -O3 -fpermissive -lrt  -DUARCH_ARM -march=armv8.2-a+fp16 -rdynamic CMakeFiles/test_interface_MAX_POOL_w4.exe.dir/layer_kernel_test_driver.cpp.o -o test_interface_MAX_POOL_w4.exe  libcheck_interface.o.a 

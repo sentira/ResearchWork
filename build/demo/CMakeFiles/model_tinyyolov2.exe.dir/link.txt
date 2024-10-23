@@ -1,0 +1,1 @@
+g++  -Wall  -fopenmp -O3 -fpermissive -lrt  -DUARCH_ARM -march=armv8.2-a+fp16 -rdynamic CMakeFiles/model_tinyyolov2.exe.dir/tinyyolov2.cpp.o -o model_tinyyolov2.exe 

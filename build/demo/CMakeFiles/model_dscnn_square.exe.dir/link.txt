@@ -1,0 +1,1 @@
+g++  -Wall  -fopenmp -O3 -fpermissive -lrt  -DUARCH_ARM -march=armv8.2-a+fp16 -rdynamic CMakeFiles/model_dscnn_square.exe.dir/dscnn_square.cpp.o -o model_dscnn_square.exe 

@@ -1,0 +1,1 @@
+g++  -Wall  -fopenmp -O3 -fpermissive -lrt  -DUARCH_ARM -march=armv8.2-a+fp16 -rdynamic CMakeFiles/test_conv2d_rect.exe.dir/test_conv2d_rect.cpp.o -o test_conv2d_rect.exe 

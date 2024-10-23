@@ -1,0 +1,1 @@
+g++  -Wall  -fopenmp -O3 -fpermissive -lrt  -DUARCH_ARM -march=armv8.2-a+fp16 -rdynamic CMakeFiles/test_dw_conv.exe.dir/test_dw_conv.cpp.o -o test_dw_conv.exe 

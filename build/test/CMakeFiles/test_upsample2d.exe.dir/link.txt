@@ -1,0 +1,1 @@
+g++  -Wall  -fopenmp -O3 -fpermissive -lrt  -DUARCH_ARM -march=armv8.2-a+fp16 -rdynamic CMakeFiles/test_upsample2d.exe.dir/test_upsample2d.cpp.o -o test_upsample2d.exe 

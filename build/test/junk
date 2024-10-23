@@ -1,0 +1,7 @@
+/home/sshuba/SMaLLFramework/test/kernel_benchmark_test.cpp: In function ‘int main()’:
+/home/sshuba/SMaLLFramework/test/kernel_benchmark_test.cpp:110:11: warning: ‘shared_buffer’ may be used uninitialized [-Wmaybe-uninitialized]
+  110 |         W = I + m * k;
+      |         ~~^~~~~~~~~~~
+/home/sshuba/SMaLLFramework/test/kernel_benchmark_test.cpp:106:17: note: ‘shared_buffer’ was declared here
+  106 |         __fp16 *shared_buffer;
+      |                 ^~~~~~~~~~~~~
